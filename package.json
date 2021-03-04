@@ -3,9 +3,9 @@
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kayra Berk Tuncer <kayrabtuncer@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/kayraberktuncer/kayraberktuncer.github.io/issues"
   },
   "dependencies": {
     "gatsby": "^3.0.1",
@@ -40,7 +40,7 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
+  "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
