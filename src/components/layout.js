@@ -25,12 +25,6 @@ const Layout = ({ location, title, children }) => {
             </div>
           )}
         </ThemeToggler>
-        <h3 className="sub-heading">
-          <Link to={`/about/`}>About</Link>
-        </h3>
-        <h3 className="sub-heading">
-          <Link to={`/blog/`}>Blog</Link>
-        </h3>
       </div>
     )
   } else {
@@ -48,8 +42,6 @@ const Layout = ({ location, title, children }) => {
             </div>
           )}
         </ThemeToggler>
-        <Link to={`/about/`} className="header-link-item">About</Link>
-        <Link to={`/blog/`} className="header-link-item">Blog</Link>
       </div>
     )
   }

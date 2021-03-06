@@ -1,14 +1,14 @@
 import React from 'react'
+import { Link } from "gatsby"
 import { FiGithub, FiTwitter, FiLinkedin } from 'react-icons/fi'
 
 const Footer = () => {
 
     return (
         <footer>
-            <div className="copyright">
-                © {new Date().getFullYear()}, Created by
-                {` `}
-                Kayra
+            <div className="footer-links">
+                    <Link to={`/about/`}>About</Link>
+                    <Link to={`/blog/`}>Blog</Link>
             </div>
             <div className="icons">
                 <a href="https://github.com/kayraberktuncer" target="blank"><FiGithub>GitHub</FiGithub></a>

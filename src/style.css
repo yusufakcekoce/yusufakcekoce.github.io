@@ -271,21 +271,20 @@ a:focus {
   margin: 0;
 }
 
-.sub-heading {
-  font-size: var(--fontSize-3);
-  float: left;
-  margin: 0 4px;
-}
-
 .dark-button {
   font-size: var(--fontSize-4);
   float: right;
   margin: 0 4px;
 }
 
-.copyright {
+.footer-links {
   float: left;
-  padding-top: var(--spacing-1);
+}
+
+.footer-links a {
+  font-size: var(--fontSize-2);
+  margin-right: 6px;
+  text-decoration: none;
 }
 
 .icons {
