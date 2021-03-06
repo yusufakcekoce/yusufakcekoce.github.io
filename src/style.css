@@ -97,6 +97,10 @@ footer {
   padding: var(--spacing-6) var(--spacing-0);
 }
 
+.social-links {
+  float: right;
+}
+
 hr {
   background: var(--color-accent);
   height: 1px;
