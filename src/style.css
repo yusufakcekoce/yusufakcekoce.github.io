@@ -95,10 +95,7 @@ body.dark {
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
-}
-
-.social-links {
-  float: right;
+  font-size: var(--fontSize-0);
 }
 
 hr {
@@ -276,8 +273,28 @@ a:focus {
 
 .sub-heading {
   font-size: var(--fontSize-3);
+  float: left;
+  margin: 0 4px;
+}
+
+.dark-button {
+  font-size: var(--fontSize-4);
   float: right;
   margin: 0 4px;
+}
+
+.copyright {
+  float: left;
+  padding-top: var(--spacing-1);
+}
+
+.icons {
+  float: right;
+}
+
+.icons a {
+  font-size: var(--fontSize-2);
+  margin: 0 3px;
 }
 
 .post-list-item {

@@ -1,28 +1,21 @@
 import React from 'react'
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+import { FiGithub, FiTwitter, FiLinkedin } from 'react-icons/fi'
 
 const Footer = () => {
 
     return (
         <footer>
-            <ThemeToggler>
-                {({ theme, toggleTheme }) => (
-                    <label style={{ float: 'left' }}>
-                        <input
-                            type="checkbox"
-                            onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
-                            checked={theme === 'dark'}
-                        />{' '}
-                        Dark mode
-                    </label>
-                )}
-            </ThemeToggler>
-            <div className="social-links" style={{ float: 'right' }}>
-                <a href="https://github.com/kayraberktuncer">Github</a>
+            <div className="copyright">
+                © {new Date().getFullYear()}, Created by
                 {` `}
-                <a href="https://twitter.com/home">Twitter</a>
+                Kayra
+            </div>
+            <div className="icons">
+                <a href="https://github.com/kayraberktuncer" target="blank"><FiGithub>GitHub</FiGithub></a>
                 {` `}
-                <a href="https://www.linkedin.com/in/kayraberktuncer/">LinkedIn</a>
+                <a href="https://twitter.com/home" target="blank"><FiTwitter>Twitter</FiTwitter></a>
+                {` `}
+                <a href="https://www.linkedin.com/in/kayraberktuncer/" target="blank"><FiLinkedin>LinkedIn</FiLinkedin></a>
             </div>
         </footer>
     )
