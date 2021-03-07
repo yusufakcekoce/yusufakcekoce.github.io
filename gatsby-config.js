@@ -9,7 +9,9 @@ module.exports = {
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `kayraberktuncer`,
-      medium: `@kayraberktuncer`
+      medium: `@kayraberktuncer`,
+      github: `kayraberktuncer`,
+      linkedin: `kayraberktuncer`
     },
   },
   plugins: [
