@@ -5,10 +5,11 @@ module.exports = {
       name: `Kayra Berk Tuncer`,
       summary: `Here I'm`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Kayra Berk Tuncer's personal website.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `kayraberktuncer`,
+      medium: `@kayraberktuncer`
     },
   },
   plugins: [

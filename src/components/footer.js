@@ -7,8 +7,9 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer-links">
-                    <Link to={`/about/`}>About</Link>
-                    <Link to={`/blog/`}>Blog</Link>
+                <Link to={`/blog/`}>Blog</Link>
+                <Link to={`/about/`}>About</Link>
+                <Link to={`/contact/`}>Contact</Link>
             </div>
             <div className="icons">
                 <a href="https://github.com/kayraberktuncer" target="blank"><FiGithub>GitHub</FiGithub></a>
