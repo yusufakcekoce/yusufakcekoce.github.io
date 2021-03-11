@@ -92,6 +92,9 @@ body.dark {
   --color-heading-black: rgb(255, 255, 255);
   --color-accent: #d1dce5;
 }
+body.dark strong {
+  color: #ffffff;
+}
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
@@ -355,19 +358,22 @@ a:focus {
 }
 
 .bio {
-  display: flex;
+  display: inline-block;
   margin-bottom: var(--spacing-16);
 }
 
 .bio p {
-  margin-bottom: var(--spacing-0);
+  width: 60%;
+  float: left;
 }
 
 .bio-avatar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
-  min-width: 50px;
-  border-radius: 100%;
+  width: 37%;
+  float: left;
 }
 
 .blog-post header h1 {
