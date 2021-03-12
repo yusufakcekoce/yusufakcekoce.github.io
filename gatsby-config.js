@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Kayra Berk Tuncer`,
     author: {
-      name: `Kayra Berk Tuncer`,
+      name: `Kayra`,
       summary: `Here I'm`,
     },
     description: `Kayra Berk Tuncer's personal website.`,
