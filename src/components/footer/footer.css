@@ -1,0 +1,22 @@
+footer {
+  padding: var(--spacing-6) var(--spacing-0);
+  font-size: var(--fontSize-0);
+}
+
+.icons {
+  display: flex;
+  align-items: stretch;
+}
+
+.icons a {
+  font-size: var(--fontSize-2);
+  margin: 0 3px;
+}
+
+@media screen and (max-width: 600px) {
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

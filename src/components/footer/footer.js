@@ -1,7 +1,7 @@
 import React from 'react'
-import { useStaticQuery, graphql } from "gatsby"
-import { Link } from "gatsby"
+import { useStaticQuery, graphql } from 'gatsby'
 import { FiGithub, FiTwitter, FiLinkedin } from 'react-icons/fi'
+import './footer.css'
 
 const Footer = () => {
 
@@ -23,11 +23,6 @@ const Footer = () => {
 
   return (
     <footer>
-      <div className="footer-links">
-        <Link to={`/blog/`}>Blog</Link>
-        <Link to={`/about/`}>About</Link>
-        <Link to={`/contact/`}>Contact</Link>
-      </div>
       <div className="icons">
         <a target="blank" href={`https://github.com/${social?.github || ``}`}>
           <FiGithub>GitHub</FiGithub>

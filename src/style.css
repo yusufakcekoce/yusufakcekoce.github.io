@@ -96,11 +96,6 @@ body.dark strong {
   color: #ffffff;
 }
 
-footer {
-  padding: var(--spacing-6) var(--spacing-0);
-  font-size: var(--fontSize-0);
-}
-
 hr {
   background: var(--color-accent);
   height: 1px;
@@ -279,25 +274,6 @@ a:focus {
   float: right;
   margin: 0 4px;
   cursor: pointer;
-}
-
-.footer-links {
-  float: left;
-}
-
-.footer-links a {
-  font-size: var(--fontSize-2);
-  margin-right: 6px;
-  text-decoration: none;
-}
-
-.icons {
-  float: right;
-}
-
-.icons a {
-  font-size: var(--fontSize-2);
-  margin: 0 3px;
 }
 
 .post-list-item {

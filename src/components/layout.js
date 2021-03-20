@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import Footer from "./footer"
+import Footer from "./footer/footer"
 
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 import { TiAdjustContrast } from 'react-icons/ti'
