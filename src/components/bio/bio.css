@@ -8,16 +8,25 @@
 }
 
 .bio_left {
-  width: 25%;
+  width: 75%;
 }
 
 .bio_right {
-  width: 75%;
+  width: 25%;
 }
 
 .bio-avatar {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 10px;
+  border-radius: 100%;
+}
+
+.bio h1 {
+  font-size: var(--fontSize-5);
+}
+
+.bio h4 {
+  margin: 0;
+  margin-bottom: var(--spacing-3);
 }
 
 @media screen and (max-width: 600px) {
@@ -26,7 +35,7 @@
   }
 
   .bio {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .bio_column {
@@ -38,7 +47,6 @@
   }
 
   .bio-avatar {
-    border-radius: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
