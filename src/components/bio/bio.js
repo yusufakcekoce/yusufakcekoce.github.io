@@ -30,7 +30,8 @@ const Bio = () => {
             <h1>Hello, my name's <strong>{author.name}</strong></h1>
             <h4>{author.summary}</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis, diam non dictum consectetur, elit eros sagittis felis, eget laoreet sem risus nec odio. Ut suscipit quis lectus at fermentum.
+              I enjoy learning new things, researching and creating new things.
+              I love contributing and developing open source projects. I try to convey what I have learned orally or in writing.
             </p>
           </>
         )}
