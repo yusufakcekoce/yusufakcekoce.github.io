@@ -1,6 +1,7 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { FiGithub, FiTwitter, FiLinkedin } from 'react-icons/fi'
+import { GrMedium } from 'react-icons/gr'
 import './footer.css'
 
 const Footer = () => {
@@ -12,7 +13,8 @@ const Footer = () => {
           social {
             twitter,
             github,
-            linkedin
+            linkedin,
+            medium
           }
         }
       }
@@ -32,6 +34,9 @@ const Footer = () => {
         </a>
         <a target="blank" href={`https://linkedin.com/in/${social?.linkedin || ``}`}>
           <FiLinkedin>LinkedIn</FiLinkedin>
+        </a>
+        <a target="blank" href={`https://medium.com/${social?.medium || ``}`}>
+          <GrMedium>Medium</GrMedium>
         </a>
       </div>
     </footer>
