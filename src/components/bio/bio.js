@@ -31,7 +31,7 @@ const Bio = () => {
             <h4>{author.summary}</h4>
             <p>
               I enjoy learning new things, researching and creating new things.
-              I love contributing and developing open source projects. I try to convey what I have learned orally or in writing.
+              I love contributing and developing open source projects. I try to convey what I have learned verbally or in writing.
             </p>
           </>
         )}
