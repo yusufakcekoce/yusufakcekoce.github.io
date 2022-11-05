@@ -1,17 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Kayra Berk Tuncer`,
+    title: `Yusuf Akçekoce`,
     author: {
-      name: `Kayra`,
+      name: `Yusuf`,
       summary: `I'm a software developer`,
     },
-    description: `Kayra Berk Tuncer's personal website.`,
+    description: `Yusuf Akçekoce's personal website.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kayraberktuncer`,
-      medium: `@kayraberktuncer`,
-      github: `kayraberktuncer`,
-      linkedin: `kayraberktuncer`
+      twitter: `yusufakcekoce`,
+      medium: `@yusufakcekoce`,
+      github: `yusufakcekoce`,
+      linkedin: `yusufakcekoce`
     },
   },
   plugins: [
